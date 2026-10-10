@@ -1,0 +1,35 @@
+.manifesto {
+  height: 280svh;
+}
+
+.manifesto .pin__stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1.5rem, 4svh, 3rem);
+  padding: clamp(3.5rem, 10svh, 5rem) var(--gutter) 1.5rem;
+  text-align: center;
+}
+
+.manifesto__text {
+  max-width: 24ch;
+  /* o menor entre largura e altura da tela: o texto nunca passa do palco */
+  font-size: clamp(1.35rem, min(5vw, 7.2svh), 4.4rem);
+  text-wrap: balance;
+  letter-spacing: 0.06em;
+  line-height: 1.25;
+}
+
+.manifesto__hook {
+  max-width: 34ch;
+  font-size: clamp(0.9rem, min(1.6vw, 3svh), 1.3rem);
+  font-style: italic;
+  color: var(--c-text-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .manifesto .pin__stage {
+    padding-block: 6rem;
+  }
+}
