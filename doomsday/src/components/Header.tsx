@@ -24,10 +24,22 @@ export default function Header() {
 
   return (
     <header ref={ref} className="header">
-      <a className="header__logo" href="#topo" onClick={(e) => (e.preventDefault(), scrollToTarget(0))}>
-        <strong>NIOBIO</strong>
-        <span aria-hidden="true"> — </span>
-        <span>Portfólio</span>
+      <a
+        className="header__logo"
+        href="#topo"
+        aria-label="Niobio — voltar ao topo"
+        onClick={(e) => (e.preventDefault(), scrollToTarget(0))}
+      >
+        <img
+          className="header__logo-img"
+          src="/logo/logo-niobio-300.png"
+          srcSet="/logo/logo-niobio-300.png 300w, /logo/logo-niobio-600.png 600w, /logo/logo-niobio-1200.png 1200w"
+          sizes="(max-width: 600px) 40px, 52px"
+          alt="Niobio"
+          width="52"
+          height="52"
+          decoding="async"
+        />
       </a>
       <nav aria-label="Principal">
         <a className="header__link" href="#contagem" onClick={irParaContagem}>
