@@ -59,6 +59,9 @@ export default function FinalImmersion() {
           return Math.min(sobra * 0.7, vw * 0.35);
         };
 
+        // Centro do vídeo: explícito, para o GSAP nunca "adivinhar" a porcentagem a partir de px.
+        gsap.set('.final__zoom', { xPercent: -50, yPercent: -50 });
+
         const tl = gsap.timeline({
           defaults: { ease: 'none' },
           scrollTrigger: {

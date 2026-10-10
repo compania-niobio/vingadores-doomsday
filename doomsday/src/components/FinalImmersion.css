@@ -35,7 +35,15 @@
   width: max(100%, calc(100svh * 1920 / 804));
   height: auto;
   aspect-ratio: 1920 / 804;
-  translate: -50% -50%;
+  /* Sem translate aqui: o GSAP anima este elemento e, ao absorver o translate do
+     CSS no próprio transform, perdia o -50% vertical em algumas telas. O centro é
+     definido no FinalImmersion.tsx com xPercent/yPercent. */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .final__zoom {
+    translate: -50% -50%;
+  }
 }
 
 .final__video {
