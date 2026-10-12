@@ -24,7 +24,7 @@ export const filmes: Filme[] = [
     ano: 2018,
     tipo: 'Filme',
     motivo: 'O dia em que os heróis perderam — e o preço que o universo pagou.',
-    arquivo: 'avengers_infinity_war_{w}px.jpg',
+    arquivo: 'avengers_infinity_war_{w}px.webp',
   },
   {
     ordem: 2,
@@ -32,7 +32,7 @@ export const filmes: Filme[] = [
     ano: 2019,
     tipo: 'Filme',
     motivo: 'O fim da Saga do Infinito e o ponto de partida do multiverso.',
-    arquivo: 'avengers_endgame_{w}px.jpg',
+    arquivo: 'avengers_endgame_{w}px.webp',
   },
   {
     ordem: 3,
@@ -40,7 +40,7 @@ export const filmes: Filme[] = [
     ano: '2021–2023',
     tipo: 'Série',
     motivo: 'Nascem as variantes, a TVA e a Linha do Tempo Sagrada.',
-    arquivo: 'loki-{w}.jpg',
+    arquivo: 'loki-{w}.webp',
   },
   {
     ordem: 4,
@@ -48,7 +48,7 @@ export const filmes: Filme[] = [
     ano: 2021,
     tipo: 'Filme',
     motivo: 'As fronteiras entre universos já estão rompidas.',
-    arquivo: 'spider_man_poster-{w}.jpg',
+    arquivo: 'spider_man_poster-{w}.webp',
   },
   {
     ordem: 5,
@@ -56,7 +56,7 @@ export const filmes: Filme[] = [
     ano: 2022,
     tipo: 'Filme',
     motivo: 'O multiverso se abre: incursões e perigo real.',
-    arquivo: 'estranho-{w}.jpg',
+    arquivo: 'estranho-{w}.webp',
   },
   {
     ordem: 6,
@@ -64,7 +64,7 @@ export const filmes: Filme[] = [
     ano: 2022,
     tipo: 'Filme',
     motivo: 'Namor e o novo equilíbrio de poder entre nações.',
-    arquivo: 'wakanda-{w}.jpg',
+    arquivo: 'wakanda-{w}.webp',
   },
   {
     ordem: 7,
@@ -72,7 +72,7 @@ export const filmes: Filme[] = [
     ano: 2023,
     tipo: 'Filme',
     motivo: 'Kang, o Conquistador, e a ameaça que vem do Reino Quântico.',
-    arquivo: 'antman-{w}.jpg',
+    arquivo: 'antman-{w}.webp',
   },
   {
     ordem: 8,
@@ -80,7 +80,7 @@ export const filmes: Filme[] = [
     ano: 2024,
     tipo: 'Filme',
     motivo: 'O Vazio, a TVA e a entrada dos mutantes no MCU.',
-    arquivo: 'deadpool-{w}.jpg',
+    arquivo: 'deadpool-{w}.webp',
   },
   {
     ordem: 9,
@@ -88,7 +88,7 @@ export const filmes: Filme[] = [
     ano: 2025,
     tipo: 'Filme',
     motivo: 'O novo Capitão e o mundo que sobrou depois do Blip.',
-    arquivo: 'capitao-{w}.jpg',
+    arquivo: 'capitao-{w}.webp',
   },
   {
     ordem: 10,
@@ -96,7 +96,7 @@ export const filmes: Filme[] = [
     ano: 2025,
     tipo: 'Filme',
     motivo: 'O novo time de anti-heróis e o Vazio.',
-    arquivo: 'thunderbolts-{w}.jpg',
+    arquivo: 'thunderbolts-{w}.webp',
   },
   {
     ordem: 11,
@@ -104,6 +104,6 @@ export const filmes: Filme[] = [
     ano: 2025,
     tipo: 'Filme',
     motivo: 'A Terra-828, a família que o MCU esperava e a cena pós-créditos que apresenta Doom.',
-    arquivo: 'fantastic4-{w}.jpg',
+    arquivo: 'fantastic4-{w}.webp',
   },
 ];

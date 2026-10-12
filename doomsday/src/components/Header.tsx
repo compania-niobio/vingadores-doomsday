@@ -32,8 +32,8 @@ export default function Header() {
       >
         <img
           className="header__logo-img"
-          src="/logo/logo-niobio-300.png"
-          srcSet="/logo/logo-niobio-300.png 300w, /logo/logo-niobio-600.png 600w, /logo/logo-niobio-1200.png 1200w"
+          src="/logo/logo-niobio-300.webp"
+          srcSet="/logo/logo-niobio-300.webp 300w, /logo/logo-niobio-600.webp 600w, /logo/logo-niobio-1200.webp 1200w"
           sizes="(max-width: 600px) 40px, 52px"
           alt="Niobio"
           width="52"

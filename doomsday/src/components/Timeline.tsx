@@ -115,8 +115,8 @@ export default function Timeline() {
                 </div>
                 <div className="tcard__poster">
                   <img
-                    src="/video/doomsday-card-600.jpg"
-                    srcSet="/video/doomsday-card-300.jpg 300w, /video/doomsday-card-600.jpg 600w, /video/doomsday-card-1200.jpg 1200w"
+                    src="/video/doomsday-card-600.webp"
+                    srcSet="/video/doomsday-card-300.webp 300w, /video/doomsday-card-600.webp 600w, /video/doomsday-card-1200.webp 1200w"
                     sizes="(max-width: 600px) 60vw, 310px"
                     alt="Victor Von Doom de braços abertos sob um céu em chamas"
                     loading="lazy"

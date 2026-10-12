@@ -134,12 +134,11 @@ export default function FinalImmersion() {
                 muted
                 playsInline
                 preload="none"
-                poster="/video/final-poster.jpg"
+                poster="/video/final-poster.webp"
                 aria-hidden="true"
                 tabIndex={-1}
               >
-                <source media="(max-width: 768px)" src="/video/final-scrub-sm.mp4" type="video/mp4" />
-                <source src="/video/final-scrub.mp4" type="video/mp4" />
+                <source media="(max-width: 768px)" src="/video/final-scrub-sm.webm" type="video/webm" />
                 <source src="/video/final-scrub.webm" type="video/webm" />
               </video>
               <div className="final__edge" />

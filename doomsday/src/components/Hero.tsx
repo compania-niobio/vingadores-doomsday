@@ -65,12 +65,11 @@ export default function Hero() {
           muted
           playsInline
           preload="metadata"
-          poster="/video/hero-poster.jpg"
+          poster="/video/hero-poster.webp"
           aria-hidden="true"
           tabIndex={-1}
         >
-          <source media="(max-width: 768px)" src="/video/hero-scrub-sm.mp4" type="video/mp4" />
-          <source src="/video/hero-scrub.mp4" type="video/mp4" />
+          <source media="(max-width: 768px)" src="/video/hero-scrub-sm.webm" type="video/webm" />
           <source src="/video/hero-scrub.webm" type="video/webm" />
         </video>
         <div className="hero__shade" />
